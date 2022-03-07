@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<style>
+ body  {
+   font-family: 'Verdana', sans-serif;
+   
+  
+ }
+ .prompt {
+    font-size: 12px;
+    font-weight: bold;
+ }
+ 
+ input {
+   outline: none;
+   border: 1px solid #a1a7bc;
+   color: #2c2f3b;
+
+
+   padding-left: 1rem;
+   padding-right: 1rem;
+   height: 30px;
+   width: 200px;
+ 
+ }
+ 
+ button {
+   height: 35px;
+   width: 150px;
+   border: 0;
+   line-height: 35px;
+   font-size: 16px;
+   cursor: pointer;
+   text-align: center;
+   color: white;
+
+   line-height: 35px;
+   background-color: #0087ff;
+   
+ 
+ }
+
+ table {	border: 2px;
+ 			width: 100%;
+ 			height: 100%; 
+	
+ }
+ 			
+ td.left-panel {
+   width: 35%;
+   color: white;
+   background-image: linear-gradient(#008dff,#00c8ff);
+   text-align: center;
+   padding: 50px 30px ;
+ }
+ 
+ tr {
+   vertical-align: top;
+ }
+ 
+ hr {
+   width: 50%;
+   color: #6ae6fe;
+ 
+ }
+ 
+ h3 {
+   color: #6ae6fe;
+ }
+ 
+ .arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px ;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+a {
+  color: black;
+  text-decoration: none;
+}			
+		
+</style>
+   <head>
+      <title>Laboratorijas uzskaites sistēma - ĶLUS</title>
+   </head>
+	
+   <body>
+   <table>
+   <tr>
+   <td class="left-panel" rowspan="2">
+   	<h1>Esi sveicināts ĶLUS</h1>
+   	<br/>
+   	<hr style="hr-left-panel">
+   	<br/>
+   	<h3>Tavas laboratorijas uzskaites sistēma</h3>
+   	<br/>
+   	<img src="img_kimija.png" width="200" height="200" alt="Kimijas bilde">
+   </td>
+   <td width = "5%" >
+   </td>
+
+   <td bgcolor = "white" >
+   <a href="_lapa1.html"><span style="font-size:11px;font-weight:bold;color:black;"><i class="arrow left"> </i>  Atpakaļ uz sākumlapu</span></a>
+      <br/><br/>
+      <h1 style="color:#008dff;" >Pieslēgties</h1>
+      Ķīmijas laboratorijas uzskaites sistēmai<br/><br/>
+      <form >
+        <div>
+          <p class="prompt">Lietotājvārds</p>
+          <input type="text" id="lietotajs" placeholder="Ievadīt lietotājvārdu" >
+    	</div>
+    	
+        <div>
+          <p class="prompt">Parole</p>
+          <input type="text" id="parole" placeholder="Ievadīt paroli" >
+    	</div>
+    	<br/><br/>
+    	<button type="submit" >
+          <span class="button">Pieslēgties</span>
+        </button>
+        </form>
+        <br/><br/>
+        <hr style="color:#acaeb6; width:100%;">
+        
+        Neesi vēl reģistrēts?  <a href="#" style="color:#0087ff;">Izveidot profilu</a>
+        
+        <br/><br/>
+        
+        
+        
+      
+      </td>
+      </tr>
+      <tr>
+      <td></td>
+      
+      <td align="right">
+      <button type="submit" style="background-color: #ff8770;" >
+          <span class="button" >Ziņot par kļūdu</span>
+        </button>
+      </td>
+      </tr>
+      </table>
+   </body>
+	
+</html>
